@@ -20,7 +20,7 @@ export ANTHROPIC_API_KEY=sk-ant-...   # for judge (Claude Haiku 4.5); or
 export OPENAI_API_KEY=sk-...          # fallback judge if Anthropic key not set
 ```
 
-### Run (Prospect — treatment)
+### Run (Prospect Theoretic agent)
 ```bash
 python src/harness_prospect.py --config harmful --split test_public --num-samples 50
 # or benign:
