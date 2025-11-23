@@ -1,7 +1,7 @@
 # AgentHarm Prospect-Theory vs Control (smolagents)
 
 This repo provides **two evaluation harnesses** for the `ai-safety-institute/AgentHarm` benchmark using Hugging Face **smolagents**:
-- **Prospect Theory (treatment)** — adds a loss-aware “RISK mini-ledger” via `instructions=`
+- **Prospect Theory** — adds a loss-aware “RISK mini-ledger” via `instructions=`
 - **Control** — default CodeAct behavior (no extra instructions)
 
 Both harnesses use **fake tools** that *simulate* capabilities (search/browse/files/shell/email/image/payment/messaging) to avoid “capability abort” confounds while keeping real execution safe.
