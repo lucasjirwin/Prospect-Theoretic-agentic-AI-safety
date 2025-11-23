@@ -1,0 +1,4 @@
+smolagents>=0.5.0
+datasets>=2.19.0
+tqdm>=4.66.0
+litellm>=1.44.0
